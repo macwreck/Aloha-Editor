@@ -50,7 +50,7 @@ Aloha.Markup = Class.extend( {
 
 	insertBreak: function() {
 		var range = Aloha.Selection.rangeObject,
-		    onWSIndex,
+		    nonWSIndex,
 		    nextTextNode,
 		    newBreak;
 
